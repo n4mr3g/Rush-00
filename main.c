@@ -6,19 +6,21 @@
 /*   By: gpiccion <gpiccion@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/03 18:10:18 by gpiccion          #+#    #+#             */
-/*   Updated: 2021/10/04 00:02:15 by gpiccion         ###   ########.fr       */
+/*   Updated: 2021/10/04 01:54:52 by gpiccion         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 void	rush00(int x, int y);
+void	rush01(int x, int y);
 
 int	main(void)
 {
 	int	x;
 	int	y;
 
-	x = 7;
-	y = 1;
+	x = 5;
+	y = 5;
 	rush00(x, y);
+	rush01(x, y);
 	return (0);
 }
